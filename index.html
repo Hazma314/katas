@@ -1,0 +1,58 @@
+<html>
+    <head>
+
+    </head>
+    
+    <body>
+        <script>    
+            console.log("Display the numbers from 1 to 20.");
+            for(var i = 1; i <= 20; i++) {
+               console.log(i);
+            }
+            console.log("Display even numbers 1-20")
+            for (var i = 2; i <= 20; i += 2){
+                console.log(i);
+            }
+            console.log("Display odd numbers 1-20")
+            for (var i = 1; i <= 20; i += 2){
+                console.log(i);
+            }
+            console.log("Display multiples of 5 1-100")
+            for (var i = 5; i <= 100; i += 5){
+                console.log(i);
+            }
+            var base = 1;
+            console.log("Display Square Numbers up to 100")
+            for (var i = 1; i <= 10; i += 1){
+                i = i * i;
+                console.log(i);
+                i = i / base;
+                base ++;
+            }
+            console.log("Display 1-20 backwards")
+            for (var i = 20; i >= 1; i -= 1){
+                console.log(i);
+            }
+            console.log("Display even numbers 1-20 backwards")
+            for (var i = 20; i >= 1; i -= 2){
+                console.log(i);
+            }
+            console.log("Display odd numbers 1-20 backwards")
+            for (var i = 20; i >= 1; i -= 2){
+                console.log(i);
+            }
+            console.log("Display multiples of 5 1-100 backwards")
+            for (var i = 100; i >= 1; i -= 5){
+                console.log(i);
+            }
+            base = 10;
+            console.log("Display Square Numbers up to 100 backwards")
+            for (var i = 10; i >= 1; i -= 1){
+                i = i * i;
+                console.log(i);
+                i = i / base;
+                base --;
+            }
+        </script>
+    </body>
+</html>
